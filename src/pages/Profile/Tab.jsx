@@ -34,7 +34,7 @@ const Tab = () => {
 
             <ul className="flex text-sm font-medium text-center bg-[#181818] py-1.5 px-2 rounded-lg text-gray-500 dark:text-gray-400">
                 <li className="flex justify-center cursor-pointer w-full" onClick={() => setTab("allocation")}>
-                    <div className={`inline-block px-4 py-2 text-white rounded w-full ${tab === "allocation" ? "bg-[#292B2E]" : ''}`}>Allocaton</div>
+                    <div className={`inline-block px-4 py-2 text-white rounded w-full ${tab === "allocation" ? "bg-[#292B2E]" : ''}`}>Allocation</div>
                 </li>
                 <li className="flex justify-center cursor-pointer w-full" onClick={() => setTab("performance")}>
                     <div className={`inline-block px-4 py-2 text-white/80 rounded w-full ${tab === "performance" ? "bg-[#292B2E]" : ''}`}>Performance</div>
